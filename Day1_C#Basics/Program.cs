@@ -38,10 +38,7 @@ namespace Day1_C_Basics
                 Console.WriteLine("Dolar decreased");
             }
 
-
-
         }
-
 
     }
 
