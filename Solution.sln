@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_C#Basics", "Day1_C#Bas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1_ClassIntro", "Day1_ClassIntro\Day1_ClassIntro.csproj", "{28D221BB-D331-462A-80B7-14F77519523A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_Methods", "Day2_Methods\Day2_Methods.csproj", "{1CCA30F0-8D81-4E62-9ABB-021F060EFBFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day2_Math", "Math\Day2_Math.csproj", "{0FEB58BE-BCA8-402E-A900-2FA7D7B9BE49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{28D221BB-D331-462A-80B7-14F77519523A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28D221BB-D331-462A-80B7-14F77519523A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28D221BB-D331-462A-80B7-14F77519523A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCA30F0-8D81-4E62-9ABB-021F060EFBFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCA30F0-8D81-4E62-9ABB-021F060EFBFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCA30F0-8D81-4E62-9ABB-021F060EFBFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCA30F0-8D81-4E62-9ABB-021F060EFBFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FEB58BE-BCA8-402E-A900-2FA7D7B9BE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FEB58BE-BCA8-402E-A900-2FA7D7B9BE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FEB58BE-BCA8-402E-A900-2FA7D7B9BE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FEB58BE-BCA8-402E-A900-2FA7D7B9BE49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
