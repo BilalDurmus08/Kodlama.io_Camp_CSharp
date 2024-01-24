@@ -8,5 +8,13 @@ namespace Day2_Math
 {
     internal class Program
     {
+    static void Main(string[] args)
+        {
+
+        }
+
+
     }
+
+
 }
