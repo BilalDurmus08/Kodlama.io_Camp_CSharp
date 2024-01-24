@@ -18,6 +18,9 @@ namespace Day3_GenericsIntro
             Numbers.Add(1);
             Numbers.Add(2);
 
+            Names.Write();
+            Console.WriteLine("-------------------");
+            Numbers.Write();
 
 
         }

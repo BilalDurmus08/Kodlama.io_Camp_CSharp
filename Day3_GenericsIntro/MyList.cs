@@ -19,7 +19,13 @@ namespace Day3_GenericsIntro
         public void Add(T item) 
         { 
             items.Add(item);
-            
+        }
+        public void Write()
+        {
+            foreach (T item in items)
+            {
+                Console.WriteLine(item);
+            }
         }
         
     
