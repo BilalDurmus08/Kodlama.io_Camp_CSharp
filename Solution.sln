@@ -29,9 +29,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day4_HW_GameProject", "Day4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day7_Basic_Linq", "Day7_Basic_Linq\Day7_Basic_Linq.csproj", "{95F49F45-3B89-428E-AC94-44FCB48B95AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8_Attributes", "Day8_Attributes\Day8_Attributes.csproj", "{82A7594C-7D60-4422-BC42-97F96D7D3C9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day8_Attributes", "Day8_Attributes\Day8_Attributes.csproj", "{82A7594C-7D60-4422-BC42-97F96D7D3C9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8_Reflection", "Day8_Reflection\Day8_Reflection.csproj", "{E67C2D23-8598-455D-8410-DB85A21C03DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day8_Reflection", "Day8_Reflection\Day8_Reflection.csproj", "{E67C2D23-8598-455D-8410-DB85A21C03DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8_Delegates", "Day8_Delegates\Day8_Delegates.csproj", "{30D4A038-FA01-487C-BBE4-45A1D4B1D3D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{E67C2D23-8598-455D-8410-DB85A21C03DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E67C2D23-8598-455D-8410-DB85A21C03DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E67C2D23-8598-455D-8410-DB85A21C03DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D4A038-FA01-487C-BBE4-45A1D4B1D3D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D4A038-FA01-487C-BBE4-45A1D4B1D3D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D4A038-FA01-487C-BBE4-45A1D4B1D3D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D4A038-FA01-487C-BBE4-45A1D4B1D3D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
