@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,13 +11,27 @@ namespace Day8_Reflection
     { 
         static void Main(string[] args)
         {
-           // Four_Operators four_Operators = new Four_Operators(5, 8);
-           // Console.WriteLine(four_Operators.Add());
+            // Four_Operators four_Operators = new Four_Operators(5, 8);
+            // Console.WriteLine(four_Operators.Add());
+
+            //var type = typeof(Four_Operators);
+            //Four_Operators four_Operators1 = Activator.CreateInstance(type, 5, 9) as Four_Operators;
+            //WriteLine(four_Operators1.Add());
+            //Console.WriteLine(four_Operators1.Add(99,22));
 
             var type = typeof(Four_Operators);
-            Four_Operators four_Operators1 = Activator.CreateInstance(type, 5, 9) as Four_Operators;
-            Console.WriteLine(four_Operators1.Add());
-            Console.WriteLine(four_Operators1.Add(99,22));
+
+            var instance = Activator.CreateInstance(type, 8, 9);
+
+            MethodInfo methodInfo = instance.GetType().GetMethod("AddNew");
+            Console.WriteLine(methodInfo.Invoke(instance, null));
+
+            var methods = type.GetMethods();
+            foreach (var m in methods)
+            {
+                Console.WriteLine("Method Name: {0}", m);
+            }
+
 
         }
 
@@ -36,7 +51,7 @@ namespace Day8_Reflection
             return number1 + number2;
         }
 
-        public int Add()
+        public int AddNew()
         {
             return _number1 + _number2;
         }
